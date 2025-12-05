@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: clamp(7px, 5vw, 37px);
+  text-align: center;
+  list-style-type: none;
+}
+.header_list {
+  display: flex;
+  list-style-type: none;
+  padding: 0%;
+  margin: 11px 0px;
+  font-size: clamp(9px, 2vw, 70px);
+}
+.header_list_item {
+  margin: 0px 7px;
+  padding: 0%;
+}

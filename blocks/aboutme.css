@@ -1,0 +1,32 @@
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: clamp(7px, 5vw, 37px);
+
+  text-align: center;
+}
+.aboutme_name {
+  font-size: clamp(20px, 6vw, 91px);
+  margin: 21px 0px;
+}
+
+.aboutme_position {
+  font-size: clamp(11px, 3vw, 70px);
+  margin: 0px 0px 21px;
+}
+.aboutme_description {
+  font-size: clamp(11px, 2vw, 70px);
+  margin: 11px 0px;
+}
+.aboutme_links {
+  display: flex;
+  list-style-type: none;
+  padding: 0%;
+  margin: 11px 0px;
+  font-size: clamp(9px, 2vw, 70px);
+}
+.aboutme_links_list {
+  margin: 0px 7px;
+  padding: 0%;
+}

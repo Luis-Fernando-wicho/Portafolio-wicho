@@ -1,0 +1,18 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px clamp(7px, 5vw, 37px);
+  text-align: center;
+}
+.experience_title {
+}
+.experience_list {
+  list-style-type: none;
+  padding: 0%;
+  display: flex;
+  font-size: clamp(9px, 2vw, 70px);
+}
+.experience_item {
+  margin: 0px 7px;
+}
