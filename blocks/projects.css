@@ -7,7 +7,7 @@
 }
 .projects_skils {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2.5fr 1fr;
   width: 100%;
   justify-items: center;
   align-items: center;
@@ -17,7 +17,7 @@
   border-radius: 10px;
   border: 3px solid hsl(0, 0%, 100%, 0.7);
   box-shadow: inset 0 0 8px 1px hsl(0, 0%, 100%, 0.9);
-  font-size: 1.5vw;
+  font-size: clamp(12px, 2vw, 25px); /* text */
   margin: 0%;
   padding: 1vw 0.7vw;
   box-sizing: border-box;
@@ -30,7 +30,8 @@
 }
 
 .projects_title {
-  font-size: 3.5vw;
+  font-size: clamp(20px, 4vw, 55px); /*title */
+  text-align: center;
   width: 100%;
   margin: 0%;
   animation: animation-elements-xd linear both;
@@ -58,11 +59,11 @@
   box-shadow: inset 0 0 8px 1px hsl(0, 0%, 100%, 0.9);
   animation: animation-elements-y linear both;
   animation-timeline: view();
-  animation-range: entry 0% cover 30%;
+  animation-range: entry 0% cover 20%;
 }
 .project_title {
   width: auto;
-  font-size: 3vw;
+  font-size: clamp(20px, 4vw, 55px); /*title */
   box-sizing: border-box;
   margin: 2vw 0px 0px;
   text-decoration: none;
@@ -73,7 +74,7 @@
   }
 }
 .project_little-description {
-  font-size: 1.8vw;
+  font-size: clamp(20px, 3vw, 40px); /* sub-title */
   box-sizing: border-box;
   margin: 1vw 0px 1.5vw;
 }
@@ -120,7 +121,7 @@
 .project_description {
   color: rgb(0, 0, 0);
   width: 100%;
-  font-size: 1.5vw;
+  font-size: clamp(12px, 2vw, 25px); /* text */
 }
 @keyframes animation-elements-y {
   from {

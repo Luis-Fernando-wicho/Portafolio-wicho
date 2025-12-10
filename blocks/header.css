@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-around;
   position: sticky;
-  top: 5vw;
+  top: clamp(2dvh, 6vw, 11dvh);
   left: 0;
   animation: animation-header linear both;
   animation-timeline: scroll(root block);
   animation-range: 100px 200px;
   z-index: 9;
-  width: 60vw;
-  height: 5vw;
+  width: clamp(25dvh, 45vw, 90dvh);
+  height: clamp(4dvh, 6vw, 10dvh);
 }
 
 .header_list {
@@ -19,10 +19,10 @@
   list-style-type: none;
   padding: 0%;
   margin: 1%;
-  font-size: 2.5vw;
+  font-size: clamp(17px, 3vw, 40px);
 }
 .header_list_item {
-  margin: 0px 21%;
+  margin: 0px 7%;
   padding: 0%;
   &:hover {
     scale: 1.35;

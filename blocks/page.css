@@ -1,8 +1,8 @@
 .page {
   max-width: 1600px;
   background-color: rgb(0, 0, 0);
-  /*  background-image: url("../images/vecteezy_indigo-blue-watercolor-hand-painting-and-splash-abstract_22915577.jpg");
-  background-size: cover; */
+  background-image: url("../images/figuritas.png");
+  background-size: contain;
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
@@ -29,6 +29,7 @@
 .page2 {
   background-color: aliceblue;
   background-image: url("https://media.istockphoto.com/id/1497523070/es/foto/primer-plano-del-papel-blanco-arrugado-para-el-fondo-de-textura.jpg?s=612x612&w=0&k=20&c=pcG6zaLu4KHSxJAAnurV3pXN72WZxuuc4z-SfyF9rG4=");
+  background-size: contain;
   display: flex;
   flex-direction: column;
   align-items: center;

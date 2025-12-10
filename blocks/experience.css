@@ -9,7 +9,7 @@
 .experience_title {
   display: flex;
   align-self: flex-start;
-  font-size: 3.5vw;
+  font-size: clamp(20px, 4vw, 55px); /*title */
   margin: 0%;
   width: 100%;
   /* animacion */
@@ -40,17 +40,20 @@
   animation-range: entry 0% cover 30%;
 }
 .experience_item_title {
-  font-size: 2.5vw;
-  margin: 0%;
+  font-size: clamp(27px, 4vw, 55px);
+  margin: 2dvh 0px 2dvh;
 }
 .experience_item_date {
-  font-size: 1.5vw;
+  font-size: clamp(12px, 2vw, 25px);
+  margin: 1dvh 0px 1dvh;
 }
 .experience_item_company {
-  font-size: 1.8vw;
+  font-size: clamp(27px, 3vw, 40px);
+  margin: 1dvh 0px 2dvh;
 }
 .experience_item_description {
-  font-size: 1.5vw;
+  font-size: clamp(12px, 2vw, 25px);
+  margin-bottom: 2dvh;
 }
 @keyframes animation-elements-y {
   from {
