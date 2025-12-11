@@ -8,7 +8,7 @@
   animation-timeline: scroll(root block);
   animation-range: 0px 200px;
   z-index: 9;
-  width: clamp(25dvh, 45vw, 90dvh);
+  width: clamp(35dvh, 45vw, 90dvh);
   height: clamp(4dvh, 6vw, 10dvh);
 }
 
